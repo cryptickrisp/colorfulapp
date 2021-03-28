@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,9 +18,15 @@ public class MainActivity extends AppCompatActivity {
  //       String textbox2 = getText(findViewById(R.id.textbox2));
  //       textbox2 = "あいうえお" + textbox
 
-         String textbox = (String) getText(findViewById(R.id.textbox));
-         String textbox2 = (String) getText(findViewById(R.id.textbox2));
-         textbox2 = "あいうえお" + textbox2;
+        TextView x = (TextView)findViewById(R.id.textbox);
+        String xStr = String.valueOf(x.getText());
+        x.setText(xStr + "  - hello world again! - " + xStr);
+
+        /*
+         String textbox = (String) getText();
+         String textbox2 = (String) getText();
+         */
+         //textbox2 = "あいうえお" + textbox2;
 
 
     }
