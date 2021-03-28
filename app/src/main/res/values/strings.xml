@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">tg_test</string>
+    <string name="a" />
+    <string name="forExit">Close app</string>
+    <string name="forCopy">Copy text</string>
+</resources>
