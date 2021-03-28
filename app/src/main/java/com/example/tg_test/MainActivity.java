@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
          String textbox2 = (String) getText(findViewById(R.id.textbox2));
          textbox2 = "あいうえお" + textbox2;
 
-
+//aaaaaaa
     }
 }
