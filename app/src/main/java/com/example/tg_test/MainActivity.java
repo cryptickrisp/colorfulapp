@@ -28,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
          */
          //textbox2 = "あいうえお" + textbox2;
 
-
+//aaaaaaa
     }
 }
